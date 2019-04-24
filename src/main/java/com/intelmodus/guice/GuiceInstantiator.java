@@ -13,7 +13,7 @@ class GuiceInstantiator implements Instantiator {
 
 	private DefaultInstantiator defaultInstantiator;
 
-	private Injector injector;
+	private final Injector injector;
 
 	GuiceInstantiator(Injector injector) {
 		this.injector = injector;
